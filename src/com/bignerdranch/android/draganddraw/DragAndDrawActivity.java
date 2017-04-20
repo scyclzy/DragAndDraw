@@ -11,7 +11,7 @@ public class DragAndDrawActivity extends SingleFragmentActivity {
 
 	@Override
 	protected Fragment createFragment() {
-		return new SingleFragmentActivity();
+		return new DragAndDrawFragment();
 	}
 
 }
